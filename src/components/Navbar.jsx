@@ -1,5 +1,3 @@
-import { LuGithub } from "react-icons/lu";
-import { LuExternalLink } from "react-icons/lu";
 import { LuArrowLeft } from "react-icons/lu";
 
 const Navbar = () => {

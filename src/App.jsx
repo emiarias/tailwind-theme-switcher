@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import { LuGithub } from "react-icons/lu";
 
 function App() {
   const [theme, setTheme] = useState("default");
@@ -10,7 +11,7 @@ function App() {
   }, [theme]);
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <main className="bg-ui-bg flex flex-col items-center justify-center grow">
         <div className="flex gap-4 mb-12">
           <button
@@ -41,9 +42,14 @@ function App() {
             Utilizamos variables CSS para cambiar los colores al instante. Sin
             archivos de configuración, sin lógica compleja. Puro Tailwind.
           </p>
-          <button className="uppercase px-10 py-4 bg-ui-btn text-ui-bg font-bold rounded-xl">
-            Comienza a codear
-          </button>
+          <a
+            href="https://github.com/emiarias/tailwind-theme-switcher"
+            target="_blank"
+            title="repo de github"
+            className="uppercase px-10 py-4 bg-ui-btn text-ui-bg font-bold rounded-xl"
+          >
+            Revisa el repo aqui{" "}
+          </a>
         </div>
       </main>
       <Footer />
