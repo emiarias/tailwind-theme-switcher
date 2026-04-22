@@ -2,6 +2,10 @@
 
 Este repositorio es un ejemplo práctico de cómo implementar un sistema de **temas múltiples** (Light, Midnight, Forest) utilizando las capacidades modernas de **Tailwind CSS v4**.
 
+## 🦖 Demo
+
+mira la demo del proyecto [aqui](https://theme-switcher-tailwind.netlify.app/)
+
 ## 🚀 Tecnologías y librerías utilizadas
 
 - [React](https://react.dev/)
