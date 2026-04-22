@@ -2,24 +2,32 @@
 
 @theme {
   --color-ui-bg: var(--bg);
+  --color-ui-bg-sec: var(--bg-sec);
   --color-ui-text: var(--text);
   --color-ui-btn: var(--btn);
 }
 
 :root {
   --bg: var(--color-slate-50);
+  --bg-sec: var(--color-slate-100);
   --text: var(--color-slate-900);
   --btn: var(--color-blue-600);
 }
 
 [data-theme="midnight"] {
   --bg: var(--color-slate-950);
+  --bg-sec: var(--color-slate-900);
   --text: var(--color-slate-50);
   --btn: var(--color-violet-500);
 }
 
 [data-theme="forest"] {
   --bg: var(--color-emerald-950);
+  --bg-sec: var(--color-emerald-900);
   --text: var(--color-emerald-50);
   --btn: var(--color-emerald-500);
+}
+
+#root {
+  @apply min-h-screen flex flex-col;
 }
