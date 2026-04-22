@@ -13,19 +13,19 @@ function App() {
     >
       <div className="flex gap-4 mb-12">
         <button
-          className="px-4 py-2 bg-blue-600 rounded font-bold text-white cursor-pointer"
+          className="px-4 py-2 font-bold bg-blue-600 text-white rounded hover:bg-blue-800 transition duration-300 cursor-pointer"
           onClick={() => setTheme("default")}
         >
           Default
         </button>
         <button
-          className="px-4 py-2 bg-purple-600 rounded font-bold text-white cursor-pointer"
+          className="px-4 py-2 font-bold text-white bg-purple-600 rounded hover:bg-purple-800 transition duration-300 cursor-pointer"
           onClick={() => setTheme("midnight")}
         >
           Midnight
         </button>
         <button
-          className="px-4 py-2 bg-green-600 rounded font-bold text-white cursor-pointer"
+          className="px-4 py-2 font-bold text-white bg-green-600 rounded hover:bg-green-800 transition duration-300 cursor-pointer"
           onClick={() => setTheme("forest")}
         >
           Forest
