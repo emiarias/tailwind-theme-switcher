@@ -1,6 +1,6 @@
 # 🌈 Change Themes con TailwindCSS y React
 
-Este proyecto es un ejemplo de cómo utilizar la directiva `@theme` de **TailwindCSS** para cambiar temas de manera sencilla en una aplicación React.
+Este repositorio es un ejemplo práctico de cómo implementar un sistema de **temas múltiples** (Light, Midnight, Forest) utilizando las capacidades modernas de **Tailwind CSS v4**.
 
 ## 🚀 Tecnologías y librerías utilizadas
 
