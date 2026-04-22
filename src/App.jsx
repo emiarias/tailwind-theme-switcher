@@ -10,7 +10,7 @@ function App() {
   }, [theme]);
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar/>
       <main className="bg-ui-bg flex flex-col items-center justify-center grow">
         <div className="flex gap-4 mb-12">
           <button

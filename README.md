@@ -1,18 +1,23 @@
-# React + Vite
+# 🌈 Change Themes con TailwindCSS y React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un ejemplo de cómo utilizar la directiva `@theme` de **TailwindCSS** para cambiar temas de manera sencilla en una aplicación React.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías y librerías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- [React](https://react.dev/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [TailwindCSS](https://tailwindcss.com/)
 
-## React Compiler
+## 💡 ¿Qué hace este proyecto?
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Permite cambiar el tema visual de la app usando la potencia de TailwindCSS y su directiva `@theme`, mostrando cómo personalizar tres tipos de estilos 'default', 'midnight' y 'forest' de forma dinámica usando las clases de tailwind.
 
-Note: This will impact Vite dev & build performances.
+## 📦 Instalación y uso
 
-## Expanding the ESLint configuration
+1. Clona el repositorio
+2. Instala las dependencias con `npm install`
+3. Inicia el proyecto con `npm run dev`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👩🏻‍💻 Autor
+
+Hecho con 💜 por [Emilse Arias](https://github.com/emiarias)
